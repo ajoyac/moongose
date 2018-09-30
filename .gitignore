@@ -1,4 +1,6 @@
 env/
 .vscode/
-
+buikd/
+dist/
+moongose.egg-info/
 __pycache__
