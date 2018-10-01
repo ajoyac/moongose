@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="moongose",
-    version="0.0.1",
+    version="0.0.24",
     author="Alejandro Joya",
     author_email="joya.a.cruz@gmail.com",
     description="python sdk to interact with Basilisk Challenges",
@@ -18,4 +18,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=[
+   'requests'
+    ]
 )

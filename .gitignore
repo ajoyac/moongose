@@ -1,6 +1,7 @@
 env/
 .vscode/
-buikd/
+build/
 dist/
 moongose.egg-info/
-__pycache__
+__pycache__/
+.whl_
